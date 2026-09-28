@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-
 ul {
   list-style: none;
 }
@@ -15,24 +14,18 @@ a {
   text-decoration: none;
   color: black;
 }
- img{
-    width: 100%;
-} 
+img {
+  width: 100%;
+}
 
 .container {
   width: calc(100% - 238px);
-  margin:auto;
+  margin: auto;
 }
 
-
-
-.row{
+.row {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-
 }
-
-
-
