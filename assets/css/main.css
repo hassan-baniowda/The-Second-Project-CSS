@@ -20,13 +20,16 @@
 
 .top {
   display: flex;
+  justify-content: center;
   gap: 587px;
-  margin-left: 18px;
-  margin-top: 52px;
+  margin-left: 80px;
+  margin-top: 50px;
 }
 
 .unic {
   color: #49bbbd;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .progress {
@@ -138,22 +141,19 @@
   width: 25%;
 }
 
-.foter h2{
+.foter h2 {
   display: flex;
   justify-content: center;
   margin-top: 74px;
-  color: #B2B3CF;
+  color: #b2b3cf;
   margin-bottom: 20px;
 }
 
-.cotact{
+.cotact {
   display: flex;
   justify-content: center;
   gap: 20px;
 }
-
-
-
 
 .cotact input {
   width: 320px;
@@ -166,7 +166,6 @@
   outline: none;
 }
 
-
 .cotact button {
   padding: 12px 30px;
   background-color: #49bbbd;
@@ -177,26 +176,128 @@
   cursor: pointer;
 }
 
-
-
-.foter-bottom img{
-width: 25%; 
-  
+.foter-bottom img {
+  width: 25%;
 }
 
-.foter-bottom{
+.foter-bottom {
   display: flex;
   justify-content: center;
   margin-top: 60px;
 }
-.foter-bottom2 img{
-  width: 15% ;
- 
+.foter-bottom2 img {
+  width: 15%;
 }
 
-.foter-bottom2{
+.foter-bottom2 {
   text-align: center;
   margin-top: 20px;
-  
 }
+
+.Collection3 {
+  width: calc((100% - 100px) / 4);
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 155px;
+}
+
+.Collection3 h2 {
+  margin-top: 12px;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.section3 .container {
+  background-color: #9dccff33;
+  margin-top: 100px;
+}
+
+.top2 {
+  margin-left: 80px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 800px;
+}
+
+.section3-top img {
+  width: 35%;
+}
+
+.section3-top {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.Collection3 p {
+  opacity: 0.5;
+  font-size: 18px;
+}
+
+.Collection3 .smallprofile {
+  margin-top: 20px;
+}
+
+.user-info img {
+  width: 40%;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.user-name {
+  font-weight: bold;
+  color: #1d2026;
+  font-size: 16px;
+}
+
+.price-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: #8c94a3;
+  font-size: 14px;
+}
+
+.new-price {
+  color: #49bbbd;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+.section4 .Collection3{
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  margin-bottom: 10px;
+}
+
+.section4 .section3-top img{
+  width: 30%;
+}
+
+
 
